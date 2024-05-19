@@ -1,0 +1,49 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Main heading style */
+h1 {
+    text-align: center;
+    color: #444;
+}
+
+/* Div container for the battery info */
+div {
+    background-color: #fff;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+/* Responsive typography and containers */
+@media (min-width: 600px) {
+    body {
+        padding: 40px;
+    }
+
+    div {
+        width: 80%;
+        padding: 30px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+}
+
+@media (min-width: 1000px) {
+    div {
+        width: 70%;
+    }
+}

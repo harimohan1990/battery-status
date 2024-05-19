@@ -1,0 +1,11 @@
+{
+    "name": "Battery status",
+    "version": "1.0.0",
+    "description": "battery status",
+    "manifest_version": 3,
+    "author": "hari",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "battery status"
+    }
+}
